@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "AD07DE8941D06456901F9E590CE303E1F4E247A4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7EFC0C8D3CC05048EAF7E0AA97B3CA37DDDA7218" : 9223372036854775807,
+    "AD07DE8941D06456901F9E590CE303E1F4E247A4" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "39723939-DBA4-4DD4-8B60-69913278EA02",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7EFC0C8D3CC05048EAF7E0AA97B3CA37DDDA7218" : "",
+    "AD07DE8941D06456901F9E590CE303E1F4E247A4" : "RollTheDice\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RollTheDice",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RollTheDice.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/xxdazzaxx\/iOS10ExerciseFiles.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7EFC0C8D3CC05048EAF7E0AA97B3CA37DDDA7218"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/xxdazzaxx\/RollTheDice.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AD07DE8941D06456901F9E590CE303E1F4E247A4"
+    }
+  ]
+}

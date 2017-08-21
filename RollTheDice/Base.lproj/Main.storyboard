@@ -6,6 +6,8 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,28 +24,57 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Roll" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OpF-Ys-uAf">
-                                <rect key="frame" x="153" y="310" width="68.5" height="47"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="47" id="O37-MC-yPp"/>
-                                    <constraint firstAttribute="width" constant="68.5" id="qxy-6p-AAg"/>
-                                </constraints>
+                                <rect key="frame" x="153" y="310" width="69" height="47"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
                                 <color key="textColor" red="0.80000001190000003" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Roll the Dice!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kgm-Bb-Zcl">
+                                <rect key="frame" x="88" y="102" width="198" height="106"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="106" id="1VE-sK-tcP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Roll the Dice!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dvX-OP-PTr">
+                                <rect key="frame" x="88" y="102" width="198" height="106"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shake your device to roll the dice" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wPV-89-6ii">
+                                <rect key="frame" x="43" y="395" width="288" height="106"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="1" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="OpF-Ys-uAf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Gqm-rJ-D14"/>
-                            <constraint firstItem="OpF-Ys-uAf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gCc-pB-1Hs"/>
+                            <constraint firstItem="dvX-OP-PTr" firstAttribute="firstBaseline" secondItem="Kgm-Bb-Zcl" secondAttribute="firstBaseline" id="B0X-SF-ubB"/>
+                            <constraint firstItem="dvX-OP-PTr" firstAttribute="baseline" secondItem="Kgm-Bb-Zcl" secondAttribute="baseline" id="DCt-7o-i6c"/>
+                            <constraint firstItem="wPV-89-6ii" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="27" id="LGR-BD-WR7"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="wPV-89-6ii" secondAttribute="bottom" constant="166" id="MtD-KC-32e"/>
+                            <constraint firstItem="Kgm-Bb-Zcl" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="82" id="P69-J9-BI1"/>
+                            <constraint firstItem="OpF-Ys-uAf" firstAttribute="centerX" secondItem="wPV-89-6ii" secondAttribute="centerX" id="WCQ-YL-6Da"/>
+                            <constraint firstItem="OpF-Ys-uAf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jfA-W7-5m9"/>
+                            <constraint firstItem="wPV-89-6ii" firstAttribute="top" secondItem="OpF-Ys-uAf" secondAttribute="bottom" constant="38" id="k1z-ch-e9b"/>
+                            <constraint firstItem="Kgm-Bb-Zcl" firstAttribute="leading" secondItem="dvX-OP-PTr" secondAttribute="leading" id="rX2-7j-IIp"/>
+                            <constraint firstItem="Kgm-Bb-Zcl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sdc-nv-YbR"/>
+                            <constraint firstItem="Kgm-Bb-Zcl" firstAttribute="centerX" secondItem="OpF-Ys-uAf" secondAttribute="centerX" id="uLs-ov-LSg"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="rollLabel" destination="OpF-Ys-uAf" id="Pvn-FK-bHw"/>
+                        <outlet property="rollTheDice" destination="dvX-OP-PTr" id="oDI-G4-Y1a"/>
+                        <outlet property="shakeLabel" destination="wPV-89-6ii" id="eIb-HW-lmL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="133.59999999999999" y="137.18140929535232"/>
         </scene>
     </scenes>
 </document>
